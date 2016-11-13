@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="HierarchyView.Component">
+        <div style="padding-left:20px" t-att-id="id">
+            <b><t t-esc="name"/></b> - <t t-esc="qty"/>
+        </div>
+    </t>
+</templates>
